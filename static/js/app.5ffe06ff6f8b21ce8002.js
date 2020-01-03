@@ -361,17 +361,6 @@ webpackJsonp([1], {
                 }))], 1), t._v(" "), i("el-card", {
                     staticStyle: {"margin-top": "20px", "text-align": "center"},
                     attrs: {shadow: "never"}
-                }, [t.token ? t._e() : i("div", {
-                    staticStyle: {
-                        "font-size": "0.9rem",
-                        "line-height": "1.5",
-                        color: "#606c71"
-                    }
-                }, [i("el-tag", {
-                    attrs: {
-                        type: "danger",
-                        size: "small"
-                    }
                 })], 1)]), t._v(" "), i("token-dialog", {ref: "tokenDialog"})], 1)
             }, staticRenderFns: []
         }, N = {
