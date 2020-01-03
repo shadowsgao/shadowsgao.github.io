@@ -557,7 +557,7 @@ webpackJsonp([1], {
                 }, [t._v("GitHub主页")]), t._v(" "), t.mini ? t._e() : i("a", {
                     staticClass: "btn",
                     attrs: {href: "http://ShadowsGtt.github.io", target: "_blank"}
-                }, [t._v("大号博客")])], 2), t._v(" "), i("div", {
+                }, [t._v("其他博客")])], 2), t._v(" "), i("div", {
                     staticStyle: {
                         position: "relative",
                         "z-index": "2",
@@ -2934,3 +2934,13 @@ webpackJsonp([1], {
     }
 }, ["NHnr"]);
 //# sourceMappingURL=app.5ffe06ff6f8b21ce8002.js.map
+
+
+
+
+
+
+
+
+
+
