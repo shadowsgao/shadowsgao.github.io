@@ -345,7 +345,24 @@ webpackJsonp([1], {
                 }
             }
         }, B = {
-           
+            render: function () {
+                var t = this, e = t.$createElement, i = t._self._c || e;
+                return i("div", [i("el-card", {attrs: {shadow: "never"}}, [i("el-menu", {
+                    attrs: {"default-active": t.active},
+                    on: {select: t.onSelect}
+                }, t._l(t.constantRouterMap, function (e) {
+                    return !e.meta || "user" != e.meta.type || !t.token && e.meta.LoginRequired || t.mini && e.meta.mini ? t._e() : i("el-menu-item", {
+                        key: e.path,
+                        attrs: {index: e.path}
+                    }, [i("i", {class: e.meta.icon}), t._v(" "), i("span", {
+                        attrs: {slot: "title"},
+                        slot: "title"
+                    }, [t._v(t._s(e.meta.title))])])
+                }))], 1), t._v(" "), i("el-card", {
+                    staticStyle: {"margin-top": "20px", "text-align": "center"},
+                    attrs: {shadow: "never"}
+                }), t._v(" "), i("token-dialog", {ref: "tokenDialog"})], 1)
+            }, staticRenderFns: []
         }, N = {
             render: function () {
                 var t = this.$createElement, e = this._self._c || t;
