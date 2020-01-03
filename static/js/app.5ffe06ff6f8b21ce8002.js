@@ -556,8 +556,8 @@ webpackJsonp([1], {
                     attrs: {href: "https://github.com/" + t.githubUsername, target: "_blank"}
                 }, [t._v("GitHub主页")]), t._v(" "), t.mini ? t._e() : i("a", {
                     staticClass: "btn",
-                    attrs: {href: "https://github.com/GitHub-Laziji/vblog", target: "_blank"}
-                }, [t._v("博客源码")])], 2), t._v(" "), i("div", {
+                    attrs: {href: "http://ShadowsGtt.github.io", target: "_blank"}
+                }, [t._v("大号博客")])], 2), t._v(" "), i("div", {
                     staticStyle: {
                         position: "relative",
                         "z-index": "2",
