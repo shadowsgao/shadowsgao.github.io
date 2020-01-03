@@ -361,7 +361,47 @@ webpackJsonp([1], {
                 }))], 1), t._v(" "), i("el-card", {
                     staticStyle: {"margin-top": "20px", "text-align": "center"},
                     attrs: {shadow: "never"}
-                }), t._v(" "), i("token-dialog", {ref: "tokenDialog"})], 1)
+                }, [t.token ? t._e() : i("div", {
+                    staticStyle: {
+                        "font-size": "0.9rem",
+                        "line-height": "1.5",
+                        color: "#606c71"
+                    }
+                }, [i("el-tag", {
+                    attrs: {
+                        type: "danger",
+                        size: "small"
+                    }
+                }, [t._v(" ")]), t._v("   Token未绑定  \n            "), i("el-button", {
+                    attrs: {type: "text"},
+                    on: {click: t.openTokenDialog}
+                }, [t._v("绑定")])], 1), t._v(" "), t.token ? i("div", {
+                    staticStyle: {
+                        "font-size": "0.9rem",
+                        "line-height": "1.5",
+                        color: "#303133"
+                    }
+                }, [i("el-tag", {
+                    attrs: {
+                        type: "success",
+                        size: "small"
+                    }
+                }, [t._v(" ")]), t._v("   Token已绑定  \n            "), i("el-button", {
+                    attrs: {type: "text"},
+                    on: {click: t.cancellation}
+                }, [t._v("注销")])], 1) : t._e(), t._v(" "), i("div", {
+                    staticStyle: {
+                        "margin-top": "10px",
+                        "text-align": "left"
+                    }
+                }, [i("el-alert", {
+                    attrs: {
+                        title: "Token获取",
+                        type: "info",
+                        description: "在 github-> settings-> developerSettings-> personalAccessTokens 勾选gist权限,获取Token. 详情参考README.md",
+                        closable: !1
+                    }
+                })], 1)]), t._v(" "), i("token-dialog", {ref: "tokenDialog"})], 1)
             }, staticRenderFns: []
         }, N = {
             render: function () {
